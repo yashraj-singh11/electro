@@ -1,0 +1,389 @@
+.electro {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border-bottom: 3px solid red;
+}
+
+.all a {
+    color: black;
+}
+
+.all {
+    color: black;
+    margin-left: 100px;
+    width: 150px;
+    margin-top: 3px;
+    height: 33px;
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    text-align: center;
+    border-radius: 29px 0px 0px 29px;
+    float: left;
+    font-size: 0.9rem;
+}
+
+.electro i {
+    margin-left: 100px;
+    text-align: center;
+    font-size: 1.0rem;
+}
+
+.electro p {
+    font-size: 0.7rem;
+    font-family: arial;
+    font-weight: 400;
+}
+
+.electro button {
+    height: 35px;
+    border-radius: 0px 29px 29px 0px;
+    background-color: tomato;
+    width: 100px;
+    font-size: 0.9rem;
+}
+
+.electro input {
+    height: 35px;
+    font-size: 0.9rem;
+}
+
+.navbar {
+    background-color: whitesmoke;
+    font-family: arial;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.navbar ul li a:hover {
+    color: tomato;
+    text-decoration: underline;
+}
+
+.shop-img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.shop-img .shop-items {
+    position: relative;
+    width: 30vw;
+    height: 33vh;
+    border: 1px solid whitesmoke;
+    margin: 1%;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+.shop-img .shop-items img:hover {
+    height: 39vh;
+}
+
+.shop-img .shop-items h4 {
+    position: relative;
+    z-index: 20;
+    color: white;
+    font-size: 1.1rem;
+    margin: 1%;
+    margin-left: 3%;
+}
+
+
+.shop-img .shop-items img {
+    width: 100%;
+}
+
+.shop-img .shop-items .wrapper {
+    background-color: rgba(220, 20, 60, 0.931);
+    width: 150vw;
+    height: 150vh;
+    position: absolute;
+    bottom: 50%;
+    right: 20%;
+    z-index: 10;
+    transform: rotate(45deg);
+}
+
+.nevbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+}
+
+.nevbar ul li a {
+
+    text-decoration: none;
+    font-family: arial;
+    font-size: 0.9rem;
+    font-weight: 600;
+
+}
+
+.nevbar {
+    margin-top: 5%;
+}
+
+.box {
+    border: 1px solid rgba(0, 0, 0, 0.238);
+    width: 22vw;
+    float: left;
+    height: 85vh;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 3%;
+    position: relative;
+}
+
+.box img {
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+.box p {
+    color: rgba(0, 0, 0, 0.651);
+    font-size: 0.9REM;
+}
+
+.box H5 {
+    font-size: 1.0REM;
+    font-weight: 900;
+}
+
+.box h3 {
+    color: red;
+    font-weight: 900;
+    font-size: 1.7rem;
+}
+
+.box h1 {
+    color: red;
+    font-weight: 900;
+    font-size: 1.8rem;
+}
+
+.box i {
+    margin: 20px;
+    font-weight: 800;
+}
+
+.mobile {
+    height: 34%;
+}
+
+.box:hover {
+    border: 2px solid red;
+}
+
+.add-to {
+    border: 1px solid white;
+    margin-top: 8%;
+    width: 21.9vw;
+    height: 11vh;
+    padding: 8px;
+    position: absolute;
+    color: white;
+}
+
+.add-to .add {
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 7vh;
+    width: 19vw;
+}
+
+.box .add-to:hover {
+    background-color: black;
+    border: 2px solid black;
+}
+
+.week img {
+    height: 60vh;
+    width: 100%;
+    margin-top: 7%;
+    background: fixed;
+}
+
+.week h2 {
+    margin-bottom: 20px;
+}
+
+.cart {
+    width: 100%;
+    height: 85vh;
+}
+
+.img-bg .day {
+
+    margin-top: 20px;
+    margin: 20px;
+    border: 1px solid red;
+    border-radius: 200%;
+    height: 22%;
+    width: 8%;
+    text-align: center;
+    background-color:red;
+    color: white;
+}
+
+.shop {
+    display: flex;
+    justify-content: center;
+}
+.deal{
+      
+       margin-top:10px;
+}
+.deal h3{
+          font-size: 1.9rem;
+          font-weight: 700;
+          margin-left: 440px;
+}
+.deal p{
+    font-size:2rem;
+     margin-left: 360px;  
+}
+.deal button{
+    background-color:red;
+   border: 0px solid white;
+    color: aliceblue;border-radius: 20px;
+    height: 40px;
+    width: 13%;
+   font-weight: 700;
+     margin-left: 500px;
+
+}
+.img-bg {
+    background: url(../img/laptop.png) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 420px;
+    margin-top: 99px;
+}
+
+.ipate {
+    height: 34%;
+    width: 40px;
+}
+
+
+.start {
+    margin: 5%;
+    width: 90vw;
+}
+
+.start img {
+    width: 20%;
+    height: 90px;
+
+}
+
+.start p {
+    font-size: 0.6rem;
+}
+
+.start h5 {
+    font-size: 0.8rem;
+}
+
+.start h3 {
+    font-size: 0.9rem;
+    color: red;
+    font-weight: 900;
+}
+
+.start S {
+    font-size: 0.6rem;
+    font-weight: 200;
+    color: black;
+}
+
+.start h4 {
+    font-weight: 700;
+    font-size: 1.rem;
+}
+
+.start img {
+    float: left;
+}
+
+.SELLING {
+    margin-top: 60px;
+}
+
+.SELLING img {
+    height: 60px;
+    width: 90px;
+}
+
+.start-cart {
+    clear: both;
+    display: flex;
+}
+
+.newsletter {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.newsletter h4 {
+    display: flex;
+    margin-left: 35%;
+    font-weight: 400;
+}
+
+.newsletter p {
+    font-weight: 700;
+    margin-left: 7px;
+}
+
+.newsletter input {
+
+    width: 29%;
+    padding: 11px;
+    height: 6vh;
+    border-radius: 15px 0px 0px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.272);
+
+}
+
+.newsletter button {
+    background-color: red;
+    color: whitesmoke;
+    height: 6vh;
+    border: 1px solid rgba(0, 0, 0, 0.272);
+    border-radius: 0px 15px 15px 0px;
+    font-weight: 700;
+}
+
+.icon {
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+.icon i {
+    border: 1px solid rgba(0, 0, 0, 0.319);
+    background-color: whitesmoke;
+    height: 6vh;
+    width: 3vw;
+    text-align: center;
+    margin-left: 10px;
+    padding: 10px;
+}
+@media (min-width:600px)and(max-width:1000px) {
+
+    .mane{
+        background-color: black;
+    }
+    
+}
